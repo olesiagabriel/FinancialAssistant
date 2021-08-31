@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.IncomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.myfinancialassistant.View.SingleListFragmentIncome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_income_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="8dp"
+            android:text="Сортировать по категории:"
+            android:textSize="15sp"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButtonIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="470dp"
+            android:clickable="true"
+            android:src="@drawable/ic_add"
+            app:backgroundTint="#ffd017"
+            app:fabSize="auto"
+            app:tint="#ffffff" />
+
+       <!--<Button
+            android:id="@+id/button_add_income"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="535dp"
+            android:background="@android:color/transparent"
+            android:text="Добавить доход"
+            android:textColor="@color/orange" />-->
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".View.AddMonthlyPaymentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textView58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Наименование" />
+
+        <EditText
+            android:id="@+id/editTextNumber6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint=" Размер"/>
+
+        <EditText
+            android:id="@+id/editTextDate7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:hint=" Дата начала действия платежа"/>
+
+        <EditText
+            android:id="@+id/editTextDate8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:hint=" Дата окончания действия платежа"/>
+
+        <EditText
+            android:id="@+id/editTextDate9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:hint=" Дата напоминания"/>
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Выберите категорию:"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/rounded_orange_button"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:text="Добавить"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="-20dp"
+            android:background="@android:color/transparent"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:text="Отмена"
+            android:textColor="@color/orange" />
+    </LinearLayout>
+</FrameLayout>

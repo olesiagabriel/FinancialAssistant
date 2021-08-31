@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Профиль"
+        android:id="@+id/CabinetTabFragment"
+        android:icon="@drawable/ic_person"/>
+    <item android:title="Доходы"
+        android:id="@+id/IncomeTabFragment"
+        android:icon="@drawable/ic_income"/>
+    <item android:title="Расходы"
+        android:id="@+id/ExpenseTabFragment"
+        android:icon="@drawable/ic_expense"/>
+    <item android:title="Платежы"
+        android:id="@+id/PaymentTabFragment"
+        android:icon="@drawable/ic_payment"/>
+    <item android:title="Статистика"
+        android:id="@+id/StatisticsTabFragment"
+        android:icon="@drawable/ic_statistics"
+        />
+</menu>

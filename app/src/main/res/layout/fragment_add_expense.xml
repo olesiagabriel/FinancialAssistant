@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.AddExpenseFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/NameExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Наименование" />
+
+        <EditText
+            android:id="@+id/SizeExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=" Размер"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/DateExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=" Дата"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/add_guide_expense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:text="Выберите категорию:"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/add_expense_button"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/rounded_orange_button"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:text="Добавить"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/cancel_expense_button"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="-20dp"
+            android:background="@android:color/transparent"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:text="Отмена"
+            android:textColor="@color/orange" />
+    </LinearLayout>
+</FrameLayout>

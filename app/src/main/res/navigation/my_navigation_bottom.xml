@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation_bottom"
+    app:startDestination="@id/CabinetTabFragment">
+
+    <fragment
+        android:id="@+id/CabinetTabFragment"
+        android:name="com.example.myfinancialassistant.View.tab.CabinetTabFragment"
+        android:label="fragment_cabinet_tab"
+        tools:layout="@layout/fragment_cabinet_tab" />
+    <fragment
+        android:id="@+id/IncomeTabFragment"
+        android:name="com.example.myfinancialassistant.View.tab.IncomeTabFragment"
+        android:label="fragment_income_tab"
+        tools:layout="@layout/fragment_income_tab" />
+    <fragment
+        android:id="@+id/ExpenseTabFragment"
+        android:name="com.example.myfinancialassistant.View.tab.ExpenseTabFragment"
+        android:label="fragment_expense_tab"
+        tools:layout="@layout/fragment_expense_tab" />
+    <fragment
+        android:id="@+id/PaymentTabFragment"
+        android:name="com.example.myfinancialassistant.View.tab.PaymentTabFragment"
+        android:label="fragment_payment_tab"
+        tools:layout="@layout/fragment_payment_tab" />
+    <fragment
+        android:id="@+id/StatisticsTabFragment"
+        android:name="com.example.myfinancialassistant.View.tab.StatisticsTabFragment"
+        android:label="fragment_statistics_tab"
+        tools:layout="@layout/fragment_statistics_tab" />
+</navigation>
