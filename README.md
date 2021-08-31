@@ -1,6 +1,6 @@
 # FinancialAssistant
 The system is a mobile application for personal finance accounting. The application implies control and accounting of funds, which will take place as follows: the process of adding income / expense, indicating all the necessary data about it, creating the missing category of income / expense, generating statistics for the selected period, as well as using the payment calendar for mandatory payments.
-![1](https://user-images.githubusercontent.com/58222137/131565532-2a4f716e-6b6e-408c-aaee-905e8f1a7bac.PNG)
+![1](https://user-images.githubusercontent.com/58222137/131566422-d1ea02a1-8313-493f-a0b3-47ee86eb65bf.PNG)
 ![2](https://user-images.githubusercontent.com/58222137/131565775-4fcd0bf1-6b17-462e-9c04-7598e8bd086f.PNG)
 ![3](https://user-images.githubusercontent.com/58222137/131565792-c0a16ed8-10a4-460e-8ada-fdc4a15c448f.PNG)
 ![4](https://user-images.githubusercontent.com/58222137/131565804-6fa3ef6c-057f-43b4-a6f2-7aa89b6aeebc.PNG)
